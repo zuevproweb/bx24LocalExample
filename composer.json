@@ -1,0 +1,20 @@
+{
+  "name": "zuevproweb/bx24LocalExample",
+  "description": "Пример папки local B24",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "YourVendorName\\YourPackageName\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Oleg Zuev",
+      "email": "zuevstudio@ya.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.0"
+  }
+}
