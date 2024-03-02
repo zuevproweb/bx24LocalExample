@@ -16,5 +16,8 @@
   ],
   "require": {
     "php": "^8.0"
+  },
+  "require-dev": {
+    "kint-php/kint": "^5.1"
   }
 }
