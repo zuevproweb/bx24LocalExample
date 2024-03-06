@@ -15,12 +15,8 @@ use Bitrix\Mail\Helper\Message;
 use Bitrix\Main\Entity\Event;
 use Bitrix\Main\Page\Asset;
 
-/**
-* Скачать Kint https://kint-php.github.io/kint/
-* Закинуть kint.phar в папку local
-*/
-if (file_exists($_SERVER["DOCUMENT_ROOT"]."/local/kint.phar")) {
-    require_once $_SERVER["DOCUMENT_ROOT"] . "/local/kint.phar";
+if (file_exists($_SERVER["DOCUMENT_ROOT"]."/local/vendor/autoload.php")) {
+    require_once ($_SERVER["DOCUMENT_ROOT"] . "/local/vendor/autoload.php");
 }
 Kint::$enabled_mode = true;
 Kint\Renderer\RichRenderer::$theme = 'solarized.css';
